@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #2b2d42;
+  height: 100vh;
+  width: 100vw;
+  font-family: "Kdam Thmor Pro", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+}
+
+.footer figure {
+  position: relative;
+}
+
+.footer figure figcaption {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 10;
+  font-size: 1.6rem;
+  letter-spacing: 2px;
+}
+
+.special:link,
+.special:visited {
+  display: inline-block;
+  color: #000;
+  text-decoration: none;
+  border-bottom: 2px solid #000;
+  margin: 1rem;
+  -webkit-transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.special:link:hover,
+.special:visited:hover {
+  padding-bottom: 1rem;
+}
+
+.button {
+  display: block;
+  cursor: pointer;
+  padding: 3rem;
+  border: 2px solid #000;
+  background-color: #415a77;
+  color: #fff;
+  border-radius: 10px;
+  width: 15rem;
+  -webkit-transition: all 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  transition: all 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.button:hover {
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+  -webkit-box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.4);
+          box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.4);
+}
+
+.button:focus {
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+  -webkit-box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.1);
+}
+/*# sourceMappingURL=style.css.map */
